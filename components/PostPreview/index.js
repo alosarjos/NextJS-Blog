@@ -9,7 +9,7 @@ export default function PostPreview({ postData }) {
       </a>
 
       <div
-        className="prose h-20 w-300 overflow-hidden overflow-ellipsis"
+        className="prose h-24 w-300 overflow-hidden overflow-ellipsis text-transparent bg-clip-text bg-gradient-to-b from-black"
         dangerouslySetInnerHTML={{ __html: postData.content }}
       />
     </div>
