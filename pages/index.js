@@ -23,11 +23,20 @@ const cards = [
     ),
   },
   {
+    href: "https://sr.ht/~alosarjos",
+    content: (
+      <>
+        <h2>SourceHut &rarr;</h2>
+        <p>Check what&apos;s been cooked behind the curtain!</p>
+      </>
+    ),
+  },
+  {
     href: "https://github.com/alosarjos",
     content: (
       <>
         <h2>GitHub &rarr;</h2>
-        <p>Check what&apos;s been cooked behind the curtain!</p>
+        <p>A mirror for SourceHut projects for more handy jolly cooperation!</p>
       </>
     ),
   },
