@@ -23,8 +23,7 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  @apply text-blue-600 border-blue-600 shadow-lg;
 }
 
 .card h2 {
