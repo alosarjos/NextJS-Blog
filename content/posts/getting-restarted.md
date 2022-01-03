@@ -1,6 +1,6 @@
 ---
 title: "Getting restarted"
-date: "2020-12-14"
+date: "2021-12-14"
 ---
 
 This week is one of those that changes life completely. I've been lucky enough to find a new job.
