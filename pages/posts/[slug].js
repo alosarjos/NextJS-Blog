@@ -23,7 +23,7 @@ export default function Post({ postData }) {
             <date className="prose prose-xl">{postData.date}</date>
           </div>
           <div
-            className="mt-6 prose prose-xl "
+            className="mt-6 prose prose-xl post-content"
             dangerouslySetInnerHTML={{ __html: postData.content }}
           />
         </section>

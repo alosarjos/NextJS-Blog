@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.post-content img {
+    margin-left: auto;
+    margin-right: auto;
+}
