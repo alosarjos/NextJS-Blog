@@ -10,6 +10,11 @@ export default function Post({ postData }) {
     <>
       <Head>
         <title>{postData.title}</title>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@alosarjos" />
+        <meta name="twitter:title" content={postData.title} />
+        <meta name="twitter:description" content={postData.content} />
+        <meta name="twitter:image" content="https://blog.alosarjos.dev/avatar.jpg" />
       </Head>
 
       <Layout>
