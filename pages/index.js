@@ -23,11 +23,11 @@ const cards = [
     ),
   },
   {
-    href: "https://sr.ht/~alosarjos",
+    href: "https://gitlab.com/alosarjos",
     content: (
       <>
-        <h2>SourceHut &rarr;</h2>
-        <p>Check what&apos;s been cooked behind the curtain!</p>
+        <h2>GitLab &rarr;</h2>
+        <p>Check what&apos;s being cooked behind the curtain on GitLab!</p>
       </>
     ),
   },
@@ -36,7 +36,7 @@ const cards = [
     content: (
       <>
         <h2>GitHub &rarr;</h2>
-        <p>A mirror for SourceHut projects for more handy jolly cooperation!</p>
+        <p>A mirror for GitLab projects for more handy jolly cooperation!</p>
       </>
     ),
   },
