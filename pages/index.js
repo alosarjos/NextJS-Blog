@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 
 const cards = [
   {
-    href: "blog",
+    href: "blog/",
     content: (
       <>
         <h2>Blog &rarr;</h2>

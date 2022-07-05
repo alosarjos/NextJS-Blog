@@ -1,15 +1,15 @@
 import Head from "next/head";
 
-import PostPreview from "../components/PostPreview";
-import BackButton from "../components/BackButton";
-import Layout from "../components/Layout";
-import CardGrid from "../components/CardGrid";
+import PostPreview from "../../components/PostPreview";
+import BackButton from "../../components/BackButton";
+import Layout from "../../components/Layout";
+import CardGrid from "../../components/CardGrid";
 
-import { getSortedPostsData } from "../lib/posts";
+import { getSortedPostsData } from "../../lib/posts";
 
 export default function Blog({ allPostsData }) {
   const cards = allPostsData.map((postData) => ({
-    href: `/posts/${postData.slug}`,
+    href: `/blog/posts/${postData.slug}`,
     content: (
       <PostPreview key={postData.slug} postData={postData}></PostPreview>
     ),

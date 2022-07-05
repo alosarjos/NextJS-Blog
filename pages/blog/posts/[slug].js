@@ -1,9 +1,9 @@
 import Head from "next/head";
 
-import Layout from "../../components/Layout";
-import BackButton from "../../components/BackButton";
+import Layout from "../../../components/Layout";
+import BackButton from "../../../components/BackButton";
 
-import { getAllPostSlugs, getPostData } from "../../lib/posts";
+import { getAllPostSlugs, getPostData } from "../../../lib/posts";
 
 export default function Post({ postData }) {
   return (
